@@ -49,8 +49,14 @@ int main()
     int arr[size];
     for(int i=0;i<size;i++)
     {
-    arr[i]=rand()%100;
+    arr[i]=rand()%10;
     }
+    
+    for(int i=0;i<size;i++)
+    {
+   printf("%d ",arr[i]);
+    }
+    
     int num;
     printf("Enter the number to be searched:");
     scanf("%d",&num);
